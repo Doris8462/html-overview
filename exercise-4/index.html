@@ -3,12 +3,90 @@
 <head>
     <meta charset="utf-8">
     <title>练习-4：Semantic HTML</title>
-    <link href="style.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet" />
 </head>
 
 <body>
+    <div id="header">
+        <!-- 本站所有网页的统一主标题 -->
+        <h1>Navigational Links</h1>
+    </div>
 
-    <!-- 请将本目录下的none-semantic.html 内容改写成semantic html-->
+    <div id="nav">
+        <!-- 本站统一的导航栏 -->
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#posts">Posts</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </div>
 
+    <div id="main">
+        <!-- 网页主体内容 -->
+        <div id="section">
+            <div id="article">
+                <!-- 此处包含一个 article（一篇文章），内容略…… -->
+                <h2>SEMANTIC HTML</h2>
+                <ul>
+                    <li>Semantic HTML introduces meaning to a page through specific elements that provide context as
+                        to
+                        what
+                        is in between the tags.</li>
+                    <li>Semantic HTML is a modern standard and makes a website accessible for people who use screen
+                        readers to translate the webpage and improves your website’s SEO.
+                    </li>
+                    <li> &lt;head&gt;, &lt;nav&gt;, &lt;main&gt;, &lt;footer&gt; create the basic structure of the
+                        webpage.
+                    </li>
+                    <li> &lt;section&gt; defines elements in a document, such as chapters, headings, or any
+                        other area of the document with the same theme.
+                    </li>
+                    <li>&lt;article&gt;holds content that makes sense on its own such as articles, blogs,
+                        comments, etc.
+                    </li>
+                    <li>
+                        &lt;aside&gt; contains information that is related to the main content, but
+                        not required in order to understand the dominant information.
+                    </li>
+                    <li> &lt;figure&gt; encapsulates all types of media.
+                    </li>
+                    <li>&lt;figcaption&gt;is used to describe the media in &lt;figure&gt;.
+                    </li>
+                    <li> &lt;video&gt;, &lt;embed&gt;and &lt;audio&gt; elements are used for
+                        media files.
+                    </li>
+                </ul>
+
+                <h3>Why use Semantic HTML?</h3>
+                <ul>
+                    <li>Accessibility: Semantic HTML makes webpages accessible for mobile devices and for people
+                        with disabilities as well. This is because screen readers and browsers are able to
+                        interpret the code better.</li>
+                    <li>SEO: It improves the website SEO, or Search Engine Optimization, which is the process of
+                        increasing the number of people that visit your webpage. With better SEO, search engines
+                        are better able to identify the content of your website and weight the most important
+                        content appropriately.
+                    </li>
+                    <li> Easy to Understand: Semantic HTML also makes the website’s source code easier to read
+                        for other web developers.
+                    </li>
+                </ul>
+            </div>
+
+            <div id="aside">
+                <!-- 侧边栏在主内容右侧 -->
+                <h2>additional information</h2>
+                <ul>
+                    <li><a href="#">additional link</a></li>
+                    <!-- 侧边栏有n个超链接，略略略…… -->
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div id="footer">
+        <!-- 本站所有网页的统一页脚 -->
+        <p>©ThoughtWorks 2020</p>
+    </div>
 </body>
 </html>
